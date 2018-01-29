@@ -1,0 +1,12 @@
+.formBase {
+
+}
+
+.elemLayout {
+
+    width: 30%;
+}
+
+.elemLayout > * {
+    /* display: block; */
+}

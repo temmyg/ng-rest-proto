@@ -1,0 +1,9 @@
+<form #paramsForm="ngForm" class="formBase">
+    <div class="elemLayout">
+        <input type="text" required [(ngModel)]="params.firstName" id="firstName" name="firstName" #firstName="ngModel" >
+        <div [hidden]="firstName.valid || firstName.pristine" [style.color]="red">
+            First Name is Required!!
+        </div>
+        <button>Submit</button>
+    </div>
+</form>
